@@ -1,0 +1,28 @@
+@media only screen and (max-width: 850px) {
+    .item-info-wrapper {
+        width: 350px;
+    }
+
+    .app-wrapper.minified {
+        width: calc(100% - 350px);
+        transform: translateX(350px);
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .item-info-wrapper {
+        width: 100%;
+    }
+
+    .content {
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .app-wrapper.minified {
+        width: 100%;
+        transform: translateX(100%);
+    }
+}
