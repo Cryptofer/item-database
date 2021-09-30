@@ -1,4 +1,4 @@
-# Client
+# Lunia Item Database
 
 ## Project setup
 ```
